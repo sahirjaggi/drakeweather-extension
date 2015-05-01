@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Drake Weather",
+  "version": "0.1",
+  "description": "Nothing was the same",
+  "chrome_url_overrides": {
+    "newtab": "drakeweather.html"
+  }
+}

@@ -1,0 +1,107 @@
+/* 	CSS
+	Sahir Jaggi
+	April 2015
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700");
+/* Typography
+------------------------------------------------------------ */
+* {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    line-height: 140%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100%;
+}
+
+.textmain {
+    font-size: 6em;
+}
+
+.text {
+    font-size: 3em;
+}
+
+.textmin {
+    font-size: .5em;
+}
+
+/* Typography
+------------------------------------------------------------ */
+a:link,
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover h2,
+a:hover img {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+a:active h2,
+a:active img {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/* Sections
+------------------------------------------------------------ */
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#weatherinfo {
+    left: 30px;
+    top: 20px;
+    height: 200px;
+    width: 520px;
+    position: absolute;
+}
+
+#info {
+    right: 30px;
+    top: 20px;
+    height: 200px;
+    width: 420px;
+    position: absolute;
+    text-align: right;
+}
+
+#credit {
+    left: 30px;
+    bottom: 20px;
+    position: absolute;
+}
+/* Images
+------------------------------------------------------------ */
+
+#drake {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 80vh;
+}
+.music {
+    right: 30px;
+    bottom: 20px;
+    position: absolute;
+}
